@@ -1,0 +1,23 @@
+<div class="container"> 
+  <div class="row"> 
+    <div class="col-md-3"  *ngFor="let articulo of articulos">
+      <div class="card my-2" >
+        <img class="card-img-top" src="{{articulo.url}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{producto.titulo}}</h5>
+          <p class="card-text">{{producto.descripcion}}</p>
+          <div class="row">
+              <div class="col-6">
+            div>
+            </div>     Precio: {{articulos.precio}}
+              </div>
+              <div class="col-6">
+                  Cantida: {{articulo.cantidad}}
+              </div>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</div>
